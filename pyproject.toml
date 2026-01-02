@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coorddetect"
+version = "0.1.0"
+description = "Automatic XYZ coordinate detection and spatial diagnostics for messy tabular data"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "Kenneth Kwabena Kenney", email = "kenneykennethkwabena@gmail.com"}
+]
+keywords = [
+    "XYZ", "coordinates", "geomatics", "lidar",
+    "surveying", "point-cloud", "qaqc"
+]
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy"
+]
+
+[project.scripts]
+coorddetect = "coorddetect.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/KennethKwabenaKenney/coorddetect"
+Issues = "https://github.com/KennethKwabenaKenney/coorddetect/issues"

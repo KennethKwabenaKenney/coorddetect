@@ -1,0 +1,35 @@
+Metadata-Version: 2.4
+Name: coorddetect
+Version: 0.1.0
+Summary: Automatic XYZ coordinate detection and spatial diagnostics for messy tabular data
+Author-email: Kenneth Kwabena Kenney <kenneykennethkwabena@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/KennethKwabenaKenney/coorddetect
+Project-URL: Issues, https://github.com/KennethKwabenaKenney/coorddetect/issues
+Keywords: XYZ,coordinates,geomatics,lidar,surveying,point-cloud,qaqc
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Dynamic: license-file
+
+# coorddetect
+
+**coorddetect** automatically detects X, Y, Z coordinate columns from messy CSV
+and Excel files and provides spatial diagnostics for QA/QC workflows.
+
+## Features
+- Automatic XYZ detection
+- Coordinate system inference
+- Confidence score
+- Robust bounding box
+- Convex hull geometry
+- Point density metrics
+- Batch processing (CSV & Excel)
+- CLI support
+
+## Installation
+```bash
+pip install coorddetect
