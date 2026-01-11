@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "coorddetect"
-version = "0.1.0"
+version = "0.1.1"
 description = "Automatic XYZ coordinate detection and spatial diagnostics for messy tabular data"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -14,7 +14,7 @@ authors = [
 ]
 keywords = [
     "XYZ", "coordinates", "geomatics", "lidar",
-    "surveying", "point-cloud", "qaqc"
+    "surveying", "point-cloud", "GIS"
 ]
 
 dependencies = [
