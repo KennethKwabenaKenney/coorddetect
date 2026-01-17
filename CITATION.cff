@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: coorddetect
+message: "If you use this software, please cite it as below."
+type: software
+
+authors:
+  - family-names: Kenney
+    given-names: Kenneth K.
+    affiliation: Oregon State University
+    orcid: https://orcid.org/0009-0002-8917-9870
+
+version: 0.1.1
+date-released: 2026-01-10
+
+doi: 10.5281/zenodo.18211641
+
+repository-code: https://github.com/KennethKwabenaKenney/coorddetect
+url: https://pypi.org/project/coorddetect/
+
+license: MIT
+
+keywords:
+  - xyz
+  - coordinates
+  - geomatics
+  - lidar
+  - GIS
+  - surveying
+  - mining
+  - qaqc
+  - data quality
+  - batch processing
